@@ -2,8 +2,11 @@ $(document).ready(function(){
     $('#profile_ripple').ripples({
         resolution: 512,
         dropRadius: 10,
-    })
-    const bars = document.querySelectorAll('.progress_bar');
+    });
+
+
+
+const bars = document.querySelectorAll('.progress_bar');
 
 
 bars.forEach(function(bar){
@@ -102,4 +105,5 @@ sectionObserver.observe(counterSection);
              })
          })
         
-})
+    });
+ 
